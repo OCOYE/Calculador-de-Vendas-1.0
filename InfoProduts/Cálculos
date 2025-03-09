@@ -1,0 +1,17 @@
+import time
+# --- INFORMAÇÕES --- #
+print(f"CALCULADOR 1.0 \n")
+time.sleep(1)
+print(f"Carregando, por favor, aguarde...")
+time.sleep(3)
+
+Produto = input('Nome do produto? ')          
+NoEstoque = int(input('Quantidade no estoque? '))
+PosVendas = int(input('Quantidade de Vendas? '))
+print("Fazendo o seguinte cálculo: Quantidade no Estoque menos(-) o número de vendas do produto...")
+time.sleep(1.5)
+
+# --- CÁLCULO E EXIBIÇÃO --- #
+print(f"Cálculo feito com sucesso!")
+print(f'{Produto} {NoEstoque - PosVendas}')
+
